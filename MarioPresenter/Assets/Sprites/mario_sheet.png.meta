@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 651615af4f38be348be58c9ebbe0896a
-timeCreated: 1467254155
+timeCreated: 1467340325
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -45,7 +45,7 @@ TextureImporter:
     21300076: mario_sheet_38
     21300078: mario_sheet_39
     21300080: mario_sheet_40
-    21300082: mario_sheet_41
+    21300082: flower3
     21300084: mario_sheet_42
     21300086: mario_sheet_43
     21300088: mario_sheet_44
@@ -145,6 +145,8 @@ TextureImporter:
     21300276: mario_walk_3
     21300278: mario_jump
     21300280: pipe_segment
+    21300282: flower2
+    21300284: flower1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -1919,16 +1921,16 @@ TextureImporter:
         - {x: 18, y: -16}
         - {x: 18, y: 16}
       tessellationDetail: 0
-    - name: mario_sheet_41
+    - name: flower3
       rect:
         serializedVersion: 2
-        x: 232
-        y: 440
-        width: 118
-        height: 40
+        x: 311
+        y: 441
+        width: 35
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 2, w: 0}
       outline:
       - - {x: -59, y: 20}
         - {x: -59, y: -20}
@@ -3952,6 +3954,30 @@ TextureImporter:
         x: 392
         y: 347
         width: 62
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - name: flower2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 441
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - name: flower1
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 441
+        width: 31
         height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
