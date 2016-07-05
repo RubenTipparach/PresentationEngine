@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarioPresenter.CSharp.Plugins", "MarioPresenter.CSharp.Plugins.csproj", "{A6E427C4-3E88-C777-3952-012435B40E52}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarioPresenter.CSharp", "MarioPresenter.CSharp.csproj", "{ADF8E8CC-093E-7EF6-9FB4-357684ACE1BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarioPresenter.CSharp.Editor", "MarioPresenter.CSharp.Editor.csproj", "{11593748-CB4A-C07F-2FA4-3FE29F015315}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6E427C4-3E88-C777-3952-012435B40E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E427C4-3E88-C777-3952-012435B40E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E427C4-3E88-C777-3952-012435B40E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E427C4-3E88-C777-3952-012435B40E52}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ADF8E8CC-093E-7EF6-9FB4-357684ACE1BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ADF8E8CC-093E-7EF6-9FB4-357684ACE1BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADF8E8CC-093E-7EF6-9FB4-357684ACE1BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADF8E8CC-093E-7EF6-9FB4-357684ACE1BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11593748-CB4A-C07F-2FA4-3FE29F015315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11593748-CB4A-C07F-2FA4-3FE29F015315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11593748-CB4A-C07F-2FA4-3FE29F015315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11593748-CB4A-C07F-2FA4-3FE29F015315}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

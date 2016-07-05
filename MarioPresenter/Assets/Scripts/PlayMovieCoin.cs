@@ -10,6 +10,7 @@ public class PlayMovieCoin : MonoBehaviour {
 	{
 		((MovieTexture)movieRenderer.material.mainTexture).Play();
 		movieRenderer.GetComponent<AudioSource>().Play();
-		Destroy(gameObject);
+        AudioSource.PlayClipAtPoint(GetComponent<AudioSource>().clip, transform.position);
+        Destroy(gameObject);
 	}
 }

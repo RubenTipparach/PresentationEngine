@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 160b802f58cac3c4886615fc2c243d1f
-timeCreated: 1467253662
+timeCreated: 1467729046
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -17,6 +17,10 @@ TextureImporter:
     21300020: coin_1
     21300022: coin_2
     21300024: coin_3
+    21300026: blue_ground
+    21300028: blue_brick_top
+    21300030: blue_brick_body
+    21300032: blue_large_block
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -203,6 +207,54 @@ TextureImporter:
         y: 416
         width: 10
         height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - name: blue_ground
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - name: blue_brick_top
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - name: blue_brick_body
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - name: blue_large_block
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
